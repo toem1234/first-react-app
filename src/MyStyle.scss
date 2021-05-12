@@ -1,0 +1,10 @@
+$primary_color : teal;
+
+h1.contact {
+    color: $primary_color;   
+}
+
+p.contact{
+    background-color: $primary_color;
+    color: white;
+}
