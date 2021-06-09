@@ -1,17 +1,17 @@
-import {StrictMode} from 'react';
+import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './Custom.css'
+import './Custom.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import About from './About';
-import Contact from './Contact'
+import Contact from './Contact';
 import ServiceClassComponent from './ServiceClassComponent';
 import ServiceFunctionalComponent from './ServiceFunctionalComponent';
 
 ReactDOM.render(
   <StrictMode>
-    <div style={{textAlign:'center',margin: '15px auto'}}>
+    <div style={{ textAlign: 'center', margin: '15px auto' }}>
       <ServiceClassComponent /> | <ServiceFunctionalComponent />
     </div>
     <App />
